@@ -25,6 +25,7 @@
 								</th:block>
 			
 								<th:block th:if="${#request.userPrincipal == null}">
+								    <li><a href="/users/signup">Đăng Kí</a>
 								     <li><a href="#test-popup1"  class="open-popup-link" >login</a>
 	                  <div id="test-popup1" class="white-popup lr-popup mfp-hide text-center">
 	                        
